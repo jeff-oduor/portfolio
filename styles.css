@@ -1,88 +1,176 @@
 {
-    padding: 0;
-    margin: 0;
-    box-sizing: boarder-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: boarder-box;
+}
+nav h1{
+color: white;
+}
+nav ul :hover {
+color: red;
+font-size: larger;
 }
 span{
-    color: red;
-  }
-  h2{
-    font-style: ;
-  }
-  p{
-    font-style: ;
-  }
-  ul{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-  }
-  nav {
-    height: 85px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 1px 2px 1px #444;
-  }
-  nav span {
-    color: green;
+  color: red;
+}
+nav h1 :hover {
+  color: red;
+  font-size: larger;
+}
+h2{
+  font-style: ;
+}
+p{
+  font-style: ;
+}
+ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav {
+  height: 85px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 1px #444;
+  background-color: black;
+  border-radius: 10px;
+}
+nav span {
+  color: green;
 }
 
 nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  
 }
 nav ul a {
 text-decoration: none;
-color: #444;
+color: white;
 }
 #home {
-    height: 50vh;
-    padding: 10px;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 50vh;
+  padding: 10px;
+  background-image: url(https://media.istockphoto.com/id/1927795888/photo/artificial-intelligence-machine-learning-natural-language-processing-data-technology.webp?a=1&b=1&s=612x612&w=0&k=20&c=p0rvH1DyMvqR533qkOtPEqVit-_X1WvJdxTZYNzQICc=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 #home h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4rem;
-    color: black;
-    margin-top: 3.5rem;
-    font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
+  color: grey;
+  margin-top: 3.5rem;
+  font-style: italic;
 }
 #home p {
-    color: black;
-    width: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-bottom: 10px;
+  color: black;
+  width: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 #about {
-    height: 40vh;
-    padding: 15px;
-    display : ;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
+  height: 60vh;
+  padding: 25px;
+  display : ;
+  justify-content: center;
+  gap: 20px;
+  text-align: center
 }
 #about p {
-    color: rgb(15, 31, 31);
-    text-align: right;
-    width: 25vw;
-    text-align: float-right;
+  color: white;
+  text-align: center;
+  width: 25vw;
+  font-style: italic;
 }
 #about div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 80px;
+  background-color: black;
+  border-radius: 20px;
 }
 #about img{
-    
-    border-radius: 20px;
-    size: 30%;
+  
+  border-radius: 20px;
+  size: 30%;
+  height: 50vh;
+  width: 40vw;
+}
+#projects {
+height: auto;
+text-align: center;
+margin-top: 4rem;
+}
+#contact{
+height: auto;
+text-align: center;
+margin-top: auto;
+display: ;
+font-size: 2rem;
+color: white;
+
+}
+.card{
+background-color: rgb(19, 17, 17);
+border: 5px 2px solid;
+height: 80vh;
+width: ;
+padding: 30px;
+border-radius: 20px;
+margin-bottom: auto;
+padding: 2rem;
+align-items: center
+}
+#projects .prj{
+border: ;
+background-color: white;
+height: 65vh;
+width: 30vw;
+border-radius: 10px;
+background-image: url(https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+background-size: cover;
+
+}
+
+#projects .prj :hover{
+border: 3px;
+}
+#projects .card p{
+font-size: 300%;
+margin-top: auto;
+color: white;
+text-decoration: none;
+}
+/* .prj a{
+align-items: center;
+} */
+#projects .prj p {
+text-decoration: none;
+color: yellow;
+font-size: 1.6rem;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: oblique;
+}
+#contact :hover {
+color: blueviolet;
+}
+#contact div{
+background-color: black;
+margin-top: auto;
+}
+.master{
+background-color: rgb(38, 35, 35);
+flex-wrap: wrap;
+}
+#about h3{
+color: white;
 }
